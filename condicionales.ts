@@ -23,6 +23,6 @@ function zodiac(day : number, month : number){
         console.log("Esta persona es Acuario");
     } else if((day >= 21 && month == 2) || (day <= 20 && month == 3)){
         console.log("Esta persona es Piscis");
-    }
+    } return zodiac;
 }
 zodiac(17,12);

@@ -35,5 +35,6 @@ function zodiac(day, month) {
     else if ((day >= 21 && month == 2) || (day <= 20 && month == 3)) {
         console.log("Esta persona es Piscis");
     }
+    return zodiac;
 }
-console.log(zodiac(17, 12));
+zodiac(17, 12);
