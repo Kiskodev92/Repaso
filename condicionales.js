@@ -57,3 +57,13 @@ function continent(country) {
     return continent;
 }
 continent("USA");
+function isEven(number) {
+    if (number % 2 === 0) {
+        console.log("El numero es par");
+    }
+    else {
+        console.log("El numero es impar");
+    }
+    return isEven;
+}
+isEven(2);
