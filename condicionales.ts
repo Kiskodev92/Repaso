@@ -26,3 +26,20 @@ function zodiac(day : number, month : number){
     } return zodiac;
 }
 zodiac(17,12);
+
+function continent(country : string){
+    if(country == "España" || country == "Francia" || country == "Alemania" || country == "Dinamarca" || country == "Belgica"){
+        console.log ("Este país es de Europa")
+    } else if(country == "Nigeria" || country == "Argelia" || country == "Marruecos" || country == "Madagascar" || country == "Kenia"){
+        console.log ("Este país es de Africa")
+    } else if(country == "China" || country == "Japón" || country == "India" || country == "Korea" || country == "Rusia"){
+        console.log ("Este país es de Asia")
+    } else if(country == "Argentina" || country == "Canada" || country == "USA" || country == "Mexico" || country == "Perú"){
+        console.log ("Este país es de America")
+    } else if(country == "Australia" || country == "Samoa" || country == "Nauru" || country == "Fiyi" || country == "Tonga"){
+        console.log ("Este país es de Oceania")
+    } return continent;
+}
+continent("USA");
+
+
