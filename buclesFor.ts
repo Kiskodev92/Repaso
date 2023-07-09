@@ -26,7 +26,7 @@ function isRainbow(colors : string[] = []){
 }
 isRainbow(["Azul","Rojo","Amapola"]);
 
-function add(myWords : string[] = []){
+export function add(myWords : string[] = []){
     let total = 0;
     for(let word of myWords){
         total += word.length

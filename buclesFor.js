@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.add = void 0;
 function evenNumbers(num) {
     if (num === void 0) { num = 20; }
     for (var i = 0; i <= num; i++) {
@@ -39,4 +42,5 @@ function add(myWords) {
     }
     return total;
 }
+exports.add = add;
 console.log(add(["paco", " pepe"]));

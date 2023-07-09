@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var condicionales_1 = require("./condicionales");
+var buclesFor_1 = require("./buclesFor");
+var arr1 = ["Casa", "Coche", "Ciudad", "Cesta"];
+var arr2 = ["Barco", "Baca", "Bicicleta", "Balon", "Bisiesto", "Brasil"];
+var arr3 = ["Venezuela", "Veneno", "Voltaje"];
+var sumadd = (0, buclesFor_1.add)(arr1);
+console.log(sumadd);
+var sumeven = (0, condicionales_1.isEven)(sumadd);
+var sumarr2 = (0, buclesFor_1.add)(arr2);
+console.log(sumarr2);
+var sumeven1 = (0, condicionales_1.isEven)(sumarr2);
+var sumarr3 = (0, buclesFor_1.add)(arr3);
+console.log(sumarr3);
+var sumeven2 = (0, condicionales_1.isEven)(sumarr3);

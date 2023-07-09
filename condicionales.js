@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isEven = void 0;
 function zodiac(day, month) {
     if ((day >= 21 && month == 3) || (day <= 20 && month == 4)) {
         console.log("Esta persona es Aries");
@@ -66,4 +69,5 @@ function isEven(number) {
     }
     return isEven;
 }
+exports.isEven = isEven;
 isEven(2);
