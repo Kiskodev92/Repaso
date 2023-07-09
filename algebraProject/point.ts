@@ -1,4 +1,4 @@
-class Point {
+export class Point {
     private x : number;
     private y : number;
     constructor(x : number, y : number){
@@ -17,5 +17,7 @@ class Point {
     public gety() :number{
         return this.y
     }
-    toString(){}
+    toString(): string{
+        return `(${this.x}, ${this.y})`
+    }
 }
