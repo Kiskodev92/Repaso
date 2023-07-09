@@ -30,3 +30,13 @@ function isRainbow(colors) {
     return isRainbow;
 }
 isRainbow(["Azul", "Rojo", "Amapola"]);
+function add(myWords) {
+    if (myWords === void 0) { myWords = []; }
+    var total = 0;
+    for (var _i = 0, myWords_1 = myWords; _i < myWords_1.length; _i++) {
+        var word = myWords_1[_i];
+        total += word.length;
+    }
+    return total;
+}
+console.log(add(["paco", " pepe"]));

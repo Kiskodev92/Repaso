@@ -7,7 +7,6 @@ function evenNumbers(num : number = 20){
 }
 evenNumbers();
 
-
 function myRevert(myArr : number[] = [1,2,3,4,5,6,7]){
 let invers : number[] = [];
     for(let i = myArr.length -1; i>= 0; i--){
@@ -26,3 +25,11 @@ function isRainbow(colors : string[] = []){
     } return isRainbow;
 }
 isRainbow(["Azul","Rojo","Amapola"]);
+
+function add(myWords : string[] = []){
+    let total = 0;
+    for(let word of myWords){
+        total += word.length
+    } return total;
+}
+console.log(add(["paco"," pepe"]));
