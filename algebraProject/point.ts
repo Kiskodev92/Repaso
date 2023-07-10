@@ -28,6 +28,6 @@ export class Point {
         let dx = this.x - anotherPoint.x;
         let dy = this.y - anotherPoint.y;
         let dxy = Math.sqrt(dx * dx + dy * dy);
-        return dxy
+        return dxy;
     }
 }
