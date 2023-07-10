@@ -6,3 +6,7 @@ var textcoord = coordenadas.toString();
 console.log(textcoord);
 var distancia = coordenadas.calculateTolOrigin();
 console.log(distancia);
+var point1 = new point_1.Point(2, 4);
+var point2 = new point_1.Point(9, 7);
+var calculoPoint = point1.calculateDistance(point2);
+console.log(calculoPoint);

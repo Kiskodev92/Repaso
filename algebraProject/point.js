@@ -25,6 +25,12 @@ var Point = /** @class */ (function () {
         var origin = Math.sqrt(this.x * this.x + this.y * this.y);
         return origin;
     };
+    Point.prototype.calculateDistance = function (anotherPoint) {
+        var dx = this.x - anotherPoint.x;
+        var dy = this.y - anotherPoint.y;
+        var dxy = Math.sqrt(dx * dx + dy * dy);
+        return dxy;
+    };
     return Point;
 }());
 exports.Point = Point;

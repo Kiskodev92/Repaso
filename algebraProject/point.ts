@@ -24,4 +24,10 @@ export class Point {
         let origin = Math.sqrt(this.x * this.x + this.y * this.y);
         return origin
     }
+    calculateDistance(anotherPoint : Point): number{
+        let dx = this.x - anotherPoint.x;
+        let dy = this.y - anotherPoint.y;
+        let dxy = Math.sqrt(dx * dx + dy * dy);
+        return dxy
+    }
 }
