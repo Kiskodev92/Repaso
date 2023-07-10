@@ -43,4 +43,13 @@ export class Point {
             return 4;
         }
     }
+    calculateNearest(points: Point[]): Point{
+        let lessDistance;
+        for(let i = 0; i < points.length; i++){
+            let distancia = this.calculateDistance(points[i]);
+            if(distancia < lessDistance){
+                lessDistance = distancia;
+            }        
+        } return points
+    }
 }
