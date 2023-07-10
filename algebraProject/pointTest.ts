@@ -8,3 +8,5 @@ let point1 = new Point (2, 4);
 let point2 = new Point (9, 7);
 let calculoPoint = point1.calculateDistance(point2);
 console.log(calculoPoint);
+let quadrante = new Point (-1, 2);
+console.log(quadrante.calcularQuadrant());

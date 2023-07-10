@@ -10,3 +10,5 @@ var point1 = new point_1.Point(2, 4);
 var point2 = new point_1.Point(9, 7);
 var calculoPoint = point1.calculateDistance(point2);
 console.log(calculoPoint);
+var quadrante = new point_1.Point(-1, 2);
+console.log(quadrante.calcularQuadrant());
