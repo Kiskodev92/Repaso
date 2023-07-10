@@ -20,4 +20,8 @@ export class Point {
     toString(): string{
         return `(${this.x}, ${this.y})`
     }
+    calculateTolOrigin(): number{
+        let origin = Math.sqrt(this.x * this.x + this.y * this.y);
+        return origin
+    }
 }

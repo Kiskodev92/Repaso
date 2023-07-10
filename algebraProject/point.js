@@ -21,6 +21,10 @@ var Point = /** @class */ (function () {
     Point.prototype.toString = function () {
         return "(".concat(this.x, ", ").concat(this.y, ")");
     };
+    Point.prototype.calculateTolOrigin = function () {
+        var origin = Math.sqrt(this.x * this.x + this.y * this.y);
+        return origin;
+    };
     return Point;
 }());
 exports.Point = Point;
