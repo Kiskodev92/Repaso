@@ -2,8 +2,8 @@ function hasEven(myNums) {
     if (myNums === void 0) { myNums = []; }
     var i = 0;
     while (i < myNums.length) {
-        if (i % 2 === 0) {
-            console.log(i);
+        if (myNums[i] % 2 === 0) {
+            console.log(myNums[i]);
         }
         i++;
     }
