@@ -2,23 +2,21 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.add = void 0;
 function evenNumbers(num) {
-    if (num === void 0) { num = 20; }
     for (var i = 0; i <= num; i++) {
         if (i % 2 != 0) {
             console.log(i);
         }
     }
 }
-evenNumbers();
+evenNumbers(20);
 function myRevert(myArr) {
-    if (myArr === void 0) { myArr = [1, 2, 3, 4, 5, 6, 7]; }
     var invers = [];
     for (var i = myArr.length - 1; i >= 0; i--) {
         invers.push(myArr[i]);
     }
     return invers;
 }
-console.log(myRevert());
+console.log(myRevert([1, 2, 3, 4, 5, 6, 7]));
 function isRainbow(colors) {
     if (colors === void 0) { colors = []; }
     for (var _i = 0, colors_1 = colors; _i < colors_1.length; _i++) {

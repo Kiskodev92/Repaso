@@ -1,19 +1,19 @@
-function evenNumbers(num : number = 20){
+function evenNumbers(num : number){
     for (let i = 0 ; i <= num; i++){
         if(i%2!=0){
             console.log(i)
             }
         } 
 }
-evenNumbers();
+evenNumbers(20);
 
-function myRevert(myArr : number[] = [1,2,3,4,5,6,7]){
+function myRevert(myArr : number[]){
 let invers : number[] = [];
     for(let i = myArr.length -1; i>= 0; i--){
         invers.push(myArr[i]);
     } return invers;
 }
-console.log(myRevert());
+console.log(myRevert([1,2,3,4,5,6,7]));
 
 function isRainbow(colors : string[] = []){
     for (let color of colors){
