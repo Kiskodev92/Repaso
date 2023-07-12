@@ -1,9 +1,11 @@
 function hasEven(myNums : number[] = []){
     let i = 0;
     while(i < myNums.length){
-        if(i%2===0){
-            console.log(i);
-        } i++;
+        if(myNums[i]%2==0){
+            console.log("Existe numero par");
+        } else{
+            console.log("No existe numero par")
+        }i++;
     }
 }
 hasEven([1,2,5,6,8,7,5,22,3]);
